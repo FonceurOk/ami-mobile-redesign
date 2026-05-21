@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . './auto-load.php';
+require_once __DIR__ . '/auto-load.php';
 
 use App\Controller\HomeController;
 
