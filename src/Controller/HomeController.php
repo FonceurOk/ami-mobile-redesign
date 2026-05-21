@@ -6,6 +6,6 @@ class HomeController
 {
     public function index()
     {
-        require ROOT . "/views/home.php";
+        require __DIR__ . "/../../views/home.php";
     }
 }    

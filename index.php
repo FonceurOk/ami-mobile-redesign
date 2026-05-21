@@ -1,8 +1,6 @@
 <?php
 require_once __DIR__ . './auto-load.php';
 
-define('ROOT', dirname(__FILE__, 1));
-
 use App\Controller\HomeController;
 
 $homeController = new HomeController();
