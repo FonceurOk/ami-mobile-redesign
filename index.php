@@ -1,5 +1,5 @@
 <?php
-require_once './auto-load.php';
+require_once __DIR__ . './auto-load.php';
 
 define('ROOT', dirname(__FILE__, 1));
 
