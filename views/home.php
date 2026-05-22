@@ -335,6 +335,7 @@ ini_set('display_errors', 1);
                 <p>Amimobile 2026 © • réalise par FonceurOk • Tous droits réservés</p>
                 <p><a class='hover' href="#">Mentions légales</a> | <a class='hover' href="#">Conditions générales d'utilisation</a></p>
                 <p>Code Source: <a class='hover' href="https://github.com/FonceurOk/ami-mobile-redesign">Lien</a></p>
+                <p>Site Original: <a class='hover' href="https://amimobile.fr">Lien</a></p>
             </div>
         </footer>
     </main>
