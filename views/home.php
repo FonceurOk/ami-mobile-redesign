@@ -33,13 +33,25 @@ ini_set('display_errors', 1);
                 <img class="menu" src="../public/assets/icons/menu.svg" alt="Menu">
             </div>
             <div class="address-blue">
-            <div>
-                <a href="#">Accueil</a>
-                <a href="#">Qui sommes nous</a>
-                <a href="#">Nos tarifs</a>
-                <a href="#">Actualités</a>
-                <a href="#">Contactez nous</a>
-                <a href="#">Demande de devis</a>
+                <div>
+                    <div>
+                        <a href="#">Accueil</a>
+                    </div>
+                    <div>
+                        <a href="#">Qui sommes nous</a>
+                    </div>
+                    <div>
+                        <a href="#">Nos tarifs</a>
+                    </div>
+                    <div>
+                        <a href="#">Actualités</a>
+                    </div>
+                    <div>
+                        <a href="#">Contactez nous</a>
+                    </div>
+                    <div>
+                        <a href="#">Demande de devis</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -293,21 +305,36 @@ ini_set('display_errors', 1);
         </section>
         <footer>
             <div class="ami-footer">
-            <a href="#"><img class="facebook" src="../public/assets/icons/facebook.svg" alt="Facebook"></a>
-            <div class="contact">
-            <img src="../public/assets/icons/phone-white.svg" alt="Numéro">
-            <h1>Contactez nous sur le <a class="num">01 47 39 16 89</a></h1>
-            </div>
-            <div class="address">
-                <img src="../public/assets/icons/map-white.svg" alt="Adresse">
-                <h1>24 Bd Jean Jaurès, 92110 Clichy</h1>
-                <img src="../public/assets/icons/clock-white.svg" alt="Horaires">
-                <h1>Lundi au Samedi 08:00–20:00</h1>
-                <img src="../public/assets/icons/mail.svg" alt="Mail">
-                <h1>clichy@amimobile.fr</h1>
-            </div>
-            <p>Amimobile 2026 © • réalise par FonceurOk • Tous droits réservés</p>
-            <p><a class='hover' href="#">Mentions légales</a> | <a class='hover' href="#">Conditions générales d'utilisation</a></p>
+                <a href="#"><img class="facebook" src="../public/assets/icons/facebook.svg" alt="Facebook"></a>
+                <div class="contact">
+                    <img src="../public/assets/icons/phone-white.svg" alt="Numéro">
+                    <h1>Contactez nous sur le <a class="num">01 47 39 16 89</a></h1>
+                </div>
+                <div class="address">
+                    <img src="../public/assets/icons/map-white.svg" alt="Adresse">
+                    <h1>24 Bd Jean Jaurès, 92110 Clichy</h1>
+                    <img src="../public/assets/icons/clock-white.svg" alt="Horaires">
+                    <h1>Lundi au Samedi 08:00–20:00</h1>
+                    <img src="../public/assets/icons/mail.svg" alt="Mail">
+                    <h1>clichy@amimobile.fr</h1>
+                </div>
+                <div class="address-mobile">
+                    <div class="container">
+                        <img src="../public/assets/icons/map-white.svg" alt="Adresse">
+                        <h1>24 Bd Jean Jaurès, 92110 Clichy</h1>
+                    </div>
+                    <div class="container">
+                        <img src="../public/assets/icons/clock-white.svg" alt="Horaires">
+                        <h1>Lundi au Samedi 08:00–20:00</h1>
+                    </div>
+                    <div class="container">
+                        <img src="../public/assets/icons/mail.svg" alt="Mail">
+                        <h1>clichy@amimobile.fr</h1>
+                    </div>
+                </div>
+                <p>Amimobile 2026 © • réalise par FonceurOk • Tous droits réservés</p>
+                <p><a class='hover' href="#">Mentions légales</a> | <a class='hover' href="#">Conditions générales d'utilisation</a></p>
+                <p>Code Source: <a class='hover' href="https://github.com/FonceurOk/ami-mobile-redesign">Lien</a></p>
             </div>
         </footer>
     </main>

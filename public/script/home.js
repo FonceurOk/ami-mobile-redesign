@@ -12,15 +12,23 @@ navText[0].style.color = '#3ec3fb';
 navText[0].style.borderBottom = '4px solid #3ec3fb';
 
 stepsImg[0].style.border = '4px solid #3ec3fb';
+   
+window.matchMedia("(min-width: 768px)").addEventListener("change", function() {
+    if (window.matchMedia("(min-width: 768px)").matches) {
+        address.style.display = "none";
+        variableMenu = true;
+        menu.src = '../public/assets/icons/menu.svg';
+}
+});
 
-if (window.matchMedia("(min-width: 768px)").matches) {
+
+window.matchMedia("(min-width: 768px)").addEventListener("change", function() {
+    if (window.matchMedia("(min-width: 1024p)").matches) {
     stepsText[2].style.width = '50%';
-    nameMenu = 'menu';
-    address.style.display = "none";
-    variableMenu = true;
 } else {
     stepsText[2].style.width = 'auto';
 }
+});
 
 window.onscroll = function() {
 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -33,7 +41,7 @@ up.addEventListener("click", function () {
     window.scroll({top: 0, behavior: "smooth"});
 });
 
-/*
+
 menu.addEventListener("click", function () {
     if (variableMenu) {
         nameMenu = 'close';
@@ -47,4 +55,3 @@ menu.addEventListener("click", function () {
 
     menu.src = `../public/assets/icons/${nameMenu}.svg`;
 });
-*/
